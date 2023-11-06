@@ -1,0 +1,138 @@
+body{
+    background-color: white;
+}
+
+.naslov-h1{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    margin-bottom: 60px;
+}
+
+.naslov-h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.015em;
+    margin-bottom: 60px;
+}
+
+.naslov-h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    margin-bottom: 24px;
+}
+
+.naslov-h1.mw{
+    max-width: 750px;
+}
+
+.text-p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    margin-bottom: 24px;
+}
+
+.learnmore1{
+    background-color:#18A0FB ;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    padding: 11px 22px;
+    color: #fff;
+    display: inline-block;
+}
+
+.learnmore2{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: #18A0FB;
+    display: inline-block;
+}
+
+.learnmore1,
+.learnmore2{
+    text-decoration: none;
+}
+
+.learnmore1:hover,
+.learnmore2:hover{
+    text-decoration: underline;
+}
+
+.section-part{
+    max-width: 1520px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.mw686{
+    max-width: 686px;
+}
+
+.mw622{
+    max-width: 622px;
+}
+
+.mw558{
+    max-width: 558px;
+}
+
+.mw494{
+    max-width: 494px;
+}
+
+.center-v{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .pl84-desk{
+        padding-left: 84px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .naslov-h1{
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 50px;
+    }
+    
+    .naslov-h2{
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .naslov-h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .section-part{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .mt-3rem{
+        margin-top: 3rem;
+    }
+}
+
+
